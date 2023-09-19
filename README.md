@@ -9,6 +9,11 @@
   ```sh
   git clone https://github.com/mt02-dev/rails-docker.git
   ```
+  
+  * DBの作成
+  ```
+  docker-compose run --rm web rails db:create
+  ```
   * コンテナの起動   
   以下のコマンドで、バックグラウンドで起動します。
   ```
